@@ -1,0 +1,18 @@
+<svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- HubSpot official sprocket logo -->
+  <g transform="translate(8,8)">
+    <!-- Main sprocket circle -->
+    <circle cx="12" cy="12" r="9" fill="#FF5A5F"/>
+    <!-- Inner white circle -->
+    <circle cx="12" cy="12" r="4" fill="#FFFFFF"/>
+    <!-- Sprocket spokes/teeth -->
+    <circle cx="3" cy="3" r="2" fill="#FF5A5F"/>
+    <circle cx="21" cy="3" r="2" fill="#FF5A5F"/>
+    <circle cx="3" cy="21" r="2" fill="#FF5A5F"/>
+    <!-- Connection lines -->
+    <line x1="5" y1="5" x2="8" y2="8" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"/>
+    <line x1="19" y1="5" x2="16" y2="8" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"/>
+    <line x1="5" y1="19" x2="8" y2="16" stroke="#FF5A5F" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <text x="32" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3748">HubSpot</text>
+</svg>

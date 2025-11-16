@@ -1,0 +1,6 @@
+<svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="12" width="16" height="16" rx="2" fill="#7b68ee"/>
+  <circle cx="13" cy="16" r="2" fill="#ffffff"/>
+  <rect x="16" y="18" width="6" height="6" rx="1" fill="#ffffff"/>
+  <text x="32" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3748">ClickUp</text>
+</svg>

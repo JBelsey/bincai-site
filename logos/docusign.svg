@@ -1,0 +1,6 @@
+<svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="12" width="16" height="16" rx="2" fill="#ffb400"/>
+  <rect x="10" y="16" width="12" height="8" rx="1" fill="#ffffff"/>
+  <path d="M14 18 L18 22" stroke="#ffb400" stroke-width="1" fill="none"/>
+  <text x="32" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3748">DocuSign</text>
+</svg>

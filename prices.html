@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pricing — Binc AI Workflow Operations</title>
+  <meta name="description" content="Simple, transparent pricing for AI workflow automation. ROI positive from the first additional deal closed." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css?v=9">
+</head>
+<body>
+  <header>
+    <nav class="wrap nav" aria-label="Main navigation" style="display: flex !important; justify-content: space-between !important; align-items: center !important; width: 100% !important; max-width: none !important;">
+      <div class="brand" aria-label="Binc home">
+        <a href="./index.html" style="display:flex; align-items:center; text-decoration:none; color:inherit">
+          <span style="font-size: 24px; font-weight: 400; letter-spacing: 0.1em;">BINC</span>
+        </a>
+      </div>
+      <div style="display: flex; align-items: center;">
+        <a href="./product.html" class="btn btn-ghost">Product</a>
+        <a href="./solutions.html" class="btn btn-ghost">Solutions</a>
+        <a href="./prices.html" class="btn btn-ghost">Pricing</a>
+        <a href="./resources.html" class="btn btn-ghost">Resources</a>
+        <a href="./enterprise.html" class="btn btn-ghost">Enterprise</a>
+        <a href="./index.html#audit" class="btn btn-primary">Book a Workflow Audit</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap">
+        <span class="pill">Simple Pricing</span>
+        <h1>ROI positive from the first deal.</h1>
+        <p class="sub">Most property businesses save 8-25+ hours per week. If automation helps close even one additional deal per month, the system pays for itself.</p>
+      </div>
+    </section>
+
+    <!-- PRICING CARDS -->
+    <section>
+      <div class="wrap">
+        <div class="cards" style="grid-template-columns:repeat(3,1fr); gap:24px; margin-top:32px">
+          <div class="card">
+            <h3>Starter</h3>
+            <div style="margin:16px 0">
+              <span style="font-size:36px; font-weight:700">£497</span>
+              <span class="muted">/month</span>
+            </div>
+            <p class="muted">Perfect for small agencies and independent agents</p>
+            <ul class="clean" style="margin:24px 0">
+              <li>Up to 5 automation workflows</li>
+              <li>Core integrations (CRM, email, calendar)</li>
+              <li>Basic enquiry and follow-up automation</li>
+              <li>Email support</li>
+            </ul>
+            <a href="./index.html#audit" class="btn btn-ghost" style="width:100%">Start Free Audit</a>
+          </div>
+          
+          <div class="card" style="border:2px solid var(--blue); position:relative">
+            <div style="position:absolute; top:-12px; left:50%; transform:translateX(-50%); background:var(--blue); color:#021528; padding:4px 12px; border-radius:12px; font-size:12px; font-weight:600">Most Popular</div>
+            <h3>Professional</h3>
+            <div style="margin:16px 0">
+              <span style="font-size:36px; font-weight:700">£997</span>
+              <span class="muted">/month</span>
+            </div>
+            <p class="muted">For growing agencies that want comprehensive automation</p>
+            <ul class="clean" style="margin:24px 0">
+              <li>Unlimited automation workflows</li>
+              <li>All integrations + custom APIs</li>
+              <li>Full deal progression automation</li>
+              <li>Advanced reporting and analytics</li>
+              <li>Priority support + monthly review</li>
+            </ul>
+            <a href="./index.html#audit" class="btn btn-primary" style="width:100%">Start Free Audit</a>
+          </div>
+          
+          <div class="card">
+            <h3>Enterprise</h3>
+            <div style="margin:16px 0">
+              <span style="font-size:24px; font-weight:700">Custom</span>
+            </div>
+            <p class="muted">For large agencies and property groups</p>
+            <ul class="clean" style="margin:24px 0">
+              <li>Multi-location support</li>
+              <li>Custom workflow development</li>
+              <li>Advanced integrations & APIs</li>
+              <li>Dedicated account management</li>
+              <li>SLA guarantees</li>
+            </ul>
+            <a href="./enterprise.html" class="btn btn-ghost" style="width:100%">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROI CALCULATOR -->
+    <section class="integrations">
+      <div class="wrap">
+        <span class="pill">ROI Calculator</span>
+        <h2>See your return on investment</h2>
+        <p class="lead">Calculate how much time and money Binc saves your business.</p>
+        
+        <div class="card" style="max-width:600px; margin:32px auto">
+          <details class="calc" aria-label="ROI calculator" open>
+            <summary style="cursor:pointer; user-select:none; font-weight:600; margin-bottom:16px">Calculate your savings</summary>
+            <div class="row" style="margin-top:16px">
+              <div>
+                <label for="minutes">Minutes per task</label>
+                <input id="minutes" type="number" min="0" step="0.5" value="3" />
+              </div>
+              <div>
+                <label for="times">Tasks per month</label>
+                <input id="times" type="number" min="0" step="1" value="200" />
+              </div>
+              <div>
+                <label for="deal">Average deal value (£)</label>
+                <input id="deal" type="number" min="0" step="100" value="4000" />
+              </div>
+            </div>
+            <div class="result" id="calcOut" style="margin-top:16px; padding:16px; background:var(--blue); color:#021528; border-radius:12px; font-weight:600">
+              Saving ~10 hours/month. One extra deal pays for the system.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT'S INCLUDED -->
+    <section>
+      <div class="wrap">
+        <h2>What's included in every plan</h2>
+        <div class="grid-2" style="margin-top:32px">
+          <div>
+            <h3>Setup & Implementation</h3>
+            <ul class="clean">
+              <li>Free workflow audit</li>
+              <li>Custom automation design</li>
+              <li>Integration setup</li>
+              <li>Team training</li>
+              <li>Go-live support</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Ongoing Support</h3>
+            <ul class="clean">
+              <li>System monitoring</li>
+              <li>Performance optimization</li>
+              <li>Regular reviews</li>
+              <li>New feature updates</li>
+              <li>Technical support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="integrations">
+      <div class="wrap">
+        <h2>Frequently asked questions</h2>
+        <div class="grid-2" style="margin-top:32px">
+          <div>
+            <h3>How quickly do we see results?</h3>
+            <p class="muted">Most businesses see immediate time savings once automations are live (typically 2-3 weeks after setup). ROI usually becomes apparent within the first month.</p>
+            
+            <h3 style="margin-top:24px">What if our tools aren't supported?</h3>
+            <p class="muted">We work with virtually any software via APIs or custom integrations. If it has an API or webhook capability, we can connect it.</p>
+          </div>
+          <div>
+            <h3>Can we cancel anytime?</h3>
+            <p class="muted">Yes, no long-term contracts. Monthly billing with 30 days notice. We're confident you'll see the value quickly.</p>
+            
+            <h3 style="margin-top:24px">Do you offer training?</h3>
+            <p class="muted">Absolutely. We provide comprehensive training for your team and ongoing support to ensure you get maximum value from the automations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section>
+      <div class="wrap" style="text-align:center">
+        <h2>Start with a free workflow audit</h2>
+        <p class="lead">We'll map your current process and show exactly where automation can save time and increase capacity.</p>
+        <div class="actions" style="justify-content:center; margin-top:24px">
+          <a class="btn btn-primary" href="./index.html#audit">Book Free Workflow Audit</a>
+          <a class="btn btn-ghost" href="./solutions.html">View Solutions</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap row">
+      <div>Binc</div>
+      <div class="tiny">© <span id="y"></span> Binc. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    // ROI calculator
+    (function(){
+      const mins = document.getElementById('minutes');
+      const times = document.getElementById('times');
+      const deal = document.getElementById('deal');
+      const out = document.getElementById('calcOut');
+      function render(){
+        const m = Math.max(0, parseFloat(mins.value)||0);
+        const t = Math.max(0, parseFloat(times.value)||0);
+        const d = Math.max(0, parseFloat(deal.value)||0);
+        const hours = (m*t)/60;
+        const hoursTxt = hours.toFixed(1);
+        const msg = `Saving ~${hoursTxt} hours/month. At £${d.toLocaleString()} per deal, just one extra deal covers the cost.`;
+        out.textContent = msg;
+      }
+      ['input','change'].forEach(ev=>{ mins.addEventListener(ev,render); times.addEventListener(ev,render); deal.addEventListener(ev,render); });
+      render();
+    })();
+  </script>
+</body>
+</html>

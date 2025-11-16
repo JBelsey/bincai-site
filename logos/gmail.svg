@@ -1,0 +1,16 @@
+<svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Official Gmail M envelope design -->
+  <g transform="translate(8,8)">
+    <!-- Background white envelope -->
+    <rect x="0" y="4" width="24" height="16" rx="2" fill="#FFFFFF" stroke="#DADCE0" stroke-width="1"/>
+    <!-- Gmail M logo -->
+    <path d="M2 6 L12 14 L22 6 L22 8 L12 16 L2 8 Z" fill="#EA4335"/>
+    <!-- Left blue section -->
+    <path d="M2 8 L2 18 L8 12 Z" fill="#4285F4"/>
+    <!-- Right green section -->
+    <path d="M22 8 L22 18 L16 12 Z" fill="#34A853"/>
+    <!-- Bottom yellow -->
+    <path d="M2 18 L8 12 L12 16 L16 12 L22 18 Z" fill="#FBBC04"/>
+  </g>
+  <text x="40" y="24" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3748">Gmail</text>
+</svg>
